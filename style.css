@@ -49,6 +49,10 @@ p {
     text-align: right;
 }
 
+.honza {
+    text-align: left;
+}
+
 /* ŠACHOVNICE */
 
 .figurka {
@@ -113,10 +117,6 @@ p {
     grid-row: 8;
     grid-column: 6;
 }
-
-
-
-
 
 
 /* ZÁPATÍ */
