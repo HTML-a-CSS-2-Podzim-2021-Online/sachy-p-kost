@@ -1,0 +1,140 @@
+
+body {
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+
+/* ---- HRÁČI ----- */
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.hraci img {
+    object-fit: cover;
+    border-radius: 15px;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+.hraci {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adela,
+.honza {
+    display: flex;
+}
+
+.popis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.adela {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+/* ŠACHOVNICE */
+
+.figurka {
+    width: 100%;
+}
+
+.sachovnice {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    background: url(obrazky/sachovnice.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    aspect-ratio: 1/1;
+    border: black 7px solid;
+    border-radius: 6px;
+}
+
+.strelec-cerny {
+    grid-row: 1;
+    grid-column: 5;
+}
+
+
+.pesec-cerny1 {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.pesec-cerny2 {
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.pesec-bily {
+    grid-row: 4;
+    grid-column: 4;
+}
+
+.pesec-cerny3 {
+    grid-row: 4;
+    grid-column: 8;
+}
+
+.kun-bily {
+    grid-row: 5;
+    grid-column: 2;
+}
+
+.kral-cerny {
+    grid-row: 6;
+    grid-column: 6;
+}
+
+.vez-cerna {
+    grid-row: 8;
+    grid-column: 3;
+}
+
+.kral-bily {
+    grid-row: 8;
+    grid-column: 6;
+}
+
+
+
+
+
+
+/* ZÁPATÍ */
+
+h3 {
+    font-weight: normal;
+}
+
+button {
+    background-color: steelblue;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+    color: whitesmoke;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
