@@ -1,7 +1,18 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
 
 body {
     max-width: 600px;
     text-align: center;
+    margin: 0 auto;
 }
 
 h1 {
@@ -33,8 +44,8 @@ p {
     justify-content: space-between;
 }
 
-.adela,
-.honza {
+.hrac1,
+.hrac2 {
     display: flex;
 }
 
@@ -44,13 +55,13 @@ p {
     justify-content: center;
 }
 
-.adela {
-    flex-direction: row-reverse;
-    text-align: right;
+.hrac1 {
+    text-align: left;
 }
 
-.honza {
-    text-align: left;
+.hrac2 {
+    flex-direction: row-reverse;
+    text-align: right;
 }
 
 /* ŠACHOVNICE */
@@ -68,7 +79,7 @@ p {
     background-size: contain;
     background-position: center;
     aspect-ratio: 1/1;
-    border: black 7px solid;
+    border: #3B2B11 7px solid;
     border-radius: 6px;
 }
 
@@ -126,11 +137,11 @@ h3 {
 }
 
 button {
-    background-color: steelblue;
+    background-color: #4E7CC0;
     border-radius: 5px;
-    border-color: black;
+    border-color:#1E1E1E;
     border-width: 1px;
-    color: whitesmoke;
+    color: #FFFFFF;
     padding: 4px;
     padding-left: 20px;
     padding-right: 20px;
